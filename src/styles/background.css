@@ -1,0 +1,32 @@
+.background__pattern {
+  background-color: #0f172a;
+  opacity: 1;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #0f172a 20%,
+      #0f172a 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #0f172a 20%,
+        #0f172a 80%,
+        transparent 80%,
+        transparent
+      )
+      17.5px 17.5px,
+    linear-gradient(
+        #121b2e 1.4000000000000001px,
+        transparent 1.4000000000000001px
+      )
+      0 -0.7000000000000001px,
+    linear-gradient(
+        90deg,
+        #121b2e 1.4000000000000001px,
+        #0f172a 1.4000000000000001px
+      ) -0.7000000000000001px 0;
+  background-size: 35px 35px, 35px 35px, 17.5px 17.5px, 17.5px 17.5px;
+}
