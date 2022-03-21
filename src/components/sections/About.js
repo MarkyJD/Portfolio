@@ -3,9 +3,9 @@ import SectionHeader from '../SectionHeader';
 
 export default function About() {
   return (
-    <section className="max-w-screen-md mx-auto min-h-screen pt-5 text-slate-300">
+    <section className="max-w-screen-md mx-auto min-h-[50vh] pt-5 text-slate-300">
       <SectionHeader title="About Me" prefix="01." id="about" />
-      <h3 className="font-semibold font-mono text-slate-200 text-lg italic my-3">
+      <h3 className="font-semibold font-mono text-blue-200 text-lg italic my-3">
         Who Am I?
       </h3>
       <main className="grid grid-cols-5 gap-8 font-raleway max-h-full">
@@ -23,8 +23,8 @@ export default function About() {
             and I am eager to change my trajectory in life by aiming for a
             career in the tech industry.
           </p>
-          <h3 className="font-semibold font-mono text-slate-200 text-lg italic my-3">
-            Technologies I am most proficient with:
+          <h3 className="font-semibold font-mono text-blue-200 text-lg italic my-3">
+            Technologies I am proficient with:
           </h3>
           <ul className="grid grid-cols-2 pl-5">
             <li className="text-slate-300">
@@ -54,6 +54,32 @@ export default function About() {
             </li>
             <li className="text-slate-300">
               <span className="text-orange-400 text-xs">&#9655;</span> Bootstrap
+            </li>
+          </ul>
+
+          <h3 className="font-semibold font-mono text-blue-200 text-lg italic my-3">
+            Things I have worked with and/or are still learning:
+          </h3>
+          <ul className="grid grid-cols-2 pl-5">
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span> Gatsby
+            </li>
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span> Graphql
+            </li>
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span> Flutter
+            </li>
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span> Android
+              development
+            </li>
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span> C
+            </li>
+            <li className="text-slate-300">
+              <span className="text-orange-400 text-xs">&#9655;</span>{' '}
+              MaterialUI
             </li>
           </ul>
         </article>

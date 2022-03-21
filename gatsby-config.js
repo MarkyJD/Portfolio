@@ -1,9 +1,3 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
     title: 'Mark Dodson',
@@ -15,6 +9,9 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-smoothscroll',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
 
     {
       resolve: `gatsby-source-filesystem`,

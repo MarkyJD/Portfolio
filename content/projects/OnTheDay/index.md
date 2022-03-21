@@ -1,6 +1,6 @@
 ---
 date: '2022-02-07'
-title: 'On the Day'
+title: 'On the Day (ncod)'
 github: 'https://github.com/OTD-Industry-Project/ncod'
 link: ''
 tech:
@@ -17,6 +17,7 @@ tools:
   - Postman
   - VirtualBox
   - Adobe XD
+cover: './dark.png'
 featured: true
 ---
 

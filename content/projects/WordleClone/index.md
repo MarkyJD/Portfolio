@@ -1,6 +1,6 @@
 ---
 date: '2022-02-08'
-title: 'Unlimited Words - A Wordle clone'
+title: 'Words Unlimited'
 github: 'https://github.com/MarkyJD/unlimited-words'
 link: ''
 tech:
@@ -8,7 +8,7 @@ tech:
   - React
   - Python
   - TailwindCSS
-tools: ''
+cover: './wordle.png'
 featured: true
 ---
 

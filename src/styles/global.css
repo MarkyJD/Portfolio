@@ -21,6 +21,20 @@ body::-webkit-scrollbar-thumb {
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .project > ul {
+    @apply px-12 list-disc;
+  }
+
+  .project > ul > li > ul {
+    @apply pl-8 list-disc;
+  }
+
+  .project > p {
+    @apply my-3;
+  }
+}
+
 @layer utilities {
   @layer responsive {
     .text-shadow {

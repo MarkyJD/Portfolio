@@ -8,10 +8,10 @@ tech:
   - React
   - Firebase
   - TailwindCSS
-tools: ''
+cover: './login.png'
 featured: true
 ---
 
-Initiated using create-react-app -> Client-side rendered app featuring an online database, authentication, and a (currently) locally stored content library.
+Client-side rendered app featuring an online database, authentication, and a (currently) locally stored content library.
 
 Made purely for educational purposes.

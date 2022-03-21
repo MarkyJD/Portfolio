@@ -8,6 +8,7 @@ tech:
   - Dart
 tools:
   - Android Studio
+cover: './splash.png'
 featured: false
 ---
 

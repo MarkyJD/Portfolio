@@ -17,7 +17,7 @@ export default function Hero() {
         </p>
         <button
           type="button"
-          onClick={() => scrollTo('#about')}
+          onClick={() => scrollTo('#projects')}
           className="text-lg font-medium transition-all duration-300 shadow-sm hover:shadow-lg hover:shadow-orange-400/10 max-w-max px-5 py-2 border text-orange-400 border-orange-400 rounded hover:bg-orange-400 hover:text-slate-900"
         >
           See My Work
