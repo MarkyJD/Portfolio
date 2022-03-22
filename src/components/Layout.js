@@ -7,7 +7,7 @@ import Socials from './Socials';
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-slate-900 antialiased relative px-6">
+    <div id="top" className="bg-slate-900 antialiased relative px-6">
       <Navbar />
       <Socials />
       <Email />

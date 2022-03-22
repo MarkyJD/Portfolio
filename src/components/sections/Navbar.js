@@ -43,8 +43,8 @@ export default function Navbar() {
         } fixed inset-x-0 z-40 bg-slate-900 h-14 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 shadow-xl flex justify-between items-center px-5 text-white`}
       >
         <div>
-          <h1 className="font-mono text-orange-400 text-md text-shadow-md hover:text-shadow-accent">
-            <button onClick={() => scrollTo('top')}>{'</markyjd>'}</button>
+          <h1 className="font-title  text-orange-400 text-2xl text-shadow-md hover:text-shadow-accent">
+            <button onClick={() => scrollTo('#top')}>{'markyjd'}</button>
           </h1>
         </div>
         <div className="md:hidden text-slate-100">
@@ -69,7 +69,7 @@ export default function Navbar() {
         <div className="hidden md:flex md:space-x-5 lg:space-x-8">
           <NavLink title="About" prefix="01." id="#about" />
           <NavLink title="Projects" prefix="02." id="#projects" />
-          <NavLink title="Experience" prefix="03." id="#experience" />
+          <NavLink title="Education" prefix="03." id="#experience" />
           <NavLink title="Contact" prefix="04." id="#contact" />
 
           <button

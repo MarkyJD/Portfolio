@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         raleway: ["'Raleway'", 'sans-serif'],
+        title: ["'Arima Madurai'", 'cursive'],
       },
     },
   },

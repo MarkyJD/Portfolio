@@ -36,7 +36,6 @@ export default function Projects() {
   `);
 
   const projects = data.projects.edges.filter(({ node }) => node);
-  console.log(projects);
 
   return (
     <section className="max-w-screen-md mx-auto min-h-[50vh] pt-5 text-slate-300 mt-20">
@@ -48,9 +47,8 @@ export default function Projects() {
         const image = getImage(cover);
 
         return (
-          <div className="pt-10 ">
+          <div key={id} className="pt-10 ">
             <Project
-              key={id}
               title={title}
               date={date}
               github={github}
