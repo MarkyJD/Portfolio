@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Background from '../components/Background';
 
 export default function NotFound() {
+  useEffect(() => {
+    document.title = 'Not Found';
+  }, []);
+
   return (
     <>
       <Background />
